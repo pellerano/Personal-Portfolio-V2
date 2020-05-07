@@ -6,7 +6,7 @@
   .main-head {
     min-height: 1vh;
     background: $bgcolor;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   nav {
@@ -15,7 +15,7 @@
     .logo {
       @include flex(center, center, column);
       flex: 1 1 40rem;
-      margin-top: 2rem;
+      margin-top: 1rem;
       color: white;
     }
 

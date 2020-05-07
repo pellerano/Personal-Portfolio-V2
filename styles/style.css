@@ -245,7 +245,7 @@ footer h4 {
   .main-head {
     min-height: 1vh;
     background: #ff4721;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   nav {
     width: 100%;
@@ -267,7 +267,7 @@ footer h4 {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 40rem;
             flex: 1 1 40rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     color: white;
   }
   nav ul {
