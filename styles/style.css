@@ -1,0 +1,304 @@
+/*VARIABLES*/
+/*MIXINS*/
+/*IMPORTS*/
+/*GLOBAL STYLES*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4,
+h5 {
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+.main-head {
+  padding: 2rem;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  min-height: 10vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+nav .logo {
+  font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 40rem;
+          flex: 2 1 40rem;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+nav ul li a {
+  color: white;
+}
+
+.intro {
+  min-height: 80vh;
+  width: 90%;
+  margin: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.intro h2 {
+  font-size: 6rem;
+  margin-bottom: 3rem;
+}
+
+.intro h3 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.intro h3 span {
+  color: #ff4721;
+  font-weight: normal;
+  font-size: 4rem;
+}
+
+.intro button {
+  padding: 2rem 6rem;
+  background: #ff4721;
+  border: none;
+  border-radius: 4.5rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.intro button a {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.intro button:hover {
+  background: #ca2200;
+  cursor: pointer;
+}
+
+.intro-images {
+  width: auto;
+  height: auto;
+}
+
+.intro-images svg {
+  width: 100%;
+  height: auto;
+}
+
+.intro-images .splash {
+  position: absolute;
+  top: -20%;
+  right: -10%;
+  z-index: -1;
+}
+
+.intro-text,
+.intro-images {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.active {
+  color: white;
+  border: 3px solid white;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+}
+
+.active a {
+  font-weight: bold;
+}
+
+footer {
+  background: #ff4721;
+  color: white;
+  min-height: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  left: 0;
+  bottom: 0;
+}
+
+footer h4 {
+  font-weight: normal;
+}
+
+@media screen and (max-width: 745px) {
+  body {
+    overflow: visible;
+  }
+  .main-head {
+    background: #ff4721;
+    margin-bottom: 2rem;
+  }
+  nav {
+    width: 100%;
+  }
+  nav .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 40rem;
+            flex: 1 1 40rem;
+    margin-top: 2rem;
+    color: white;
+  }
+  nav ul {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 60rem;
+            flex: 1 1 60rem;
+    margin: 2rem 0rem;
+  }
+  nav ul li a {
+    font-size: 1.7rem;
+  }
+  .intro-text {
+    text-align: center;
+  }
+  .intro-text h2 {
+    font-size: 3rem;
+  }
+  .intro-text h3 {
+    font-size: 2rem;
+  }
+  .intro-text button {
+    font-size: 1.7rem;
+    padding: 1rem 2rem;
+  }
+  .intro-images .splash {
+    display: none;
+  }
+  .intro-images .intro-images {
+    text-align: center;
+  }
+  .intro-images .intro-images svg {
+    height: 20%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

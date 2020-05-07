@@ -1,0 +1,63 @@
+@media screen and (max-width: 745px) {
+  body {
+    overflow: visible;
+  }
+
+  .main-head {
+    background: $bgcolor;
+    margin-bottom: 2rem;
+  }
+
+  nav {
+    width: 100%;
+
+    .logo {
+      @include flex(center, center, column);
+      flex: 1 1 40rem;
+      margin-top: 2rem;
+      color: white;
+    }
+
+    ul {
+      flex: 1 1 60rem;
+      margin: 2rem 0rem;
+
+      li {
+        a {
+          font-size: 1.7rem;
+        }
+      }
+    }
+  }
+
+  .intro-text {
+    text-align: center;
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+    }
+
+    button {
+      font-size: 1.7rem;
+      padding: 1rem 2rem;
+    }
+  }
+
+  .intro-images {
+    .splash {
+      display: none;
+    }
+
+    .intro-images {
+      text-align: center;
+
+      svg {
+        height: 20%;
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+.main-head {
+  padding: 2rem;
+}
+
+nav {
+  @include flex(space-between, center, row);
+  min-height: 10vh;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+
+  .logo {
+    font-size: 3rem;
+    @include flex(flex-start, center, row);
+    flex: 2 1 40rem;
+  }
+
+  ul {
+    @include flex(space-around, center, row);
+    flex: 1 1 40rem;
+    li {
+      a {
+        color: white;
+      }
+    }
+  }
+}
+
+.intro {
+  min-height: 80vh;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  @include flex(space-between, center, row);
+
+  h2 {
+    font-size: 6rem;
+    margin-bottom: 3rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+
+    span {
+      color: $bgcolor;
+      font-weight: normal;
+      font-size: 4rem;
+    }
+  }
+
+  button {
+    padding: 2rem 6rem;
+    background: $bgcolor;
+    border: none;
+    border-radius: 4.5rem;
+    transition: 0.3s ease-in-out;
+    a {
+      color: white;
+      font-weight: bold;
+      font-size: 2rem;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    &:hover {
+      background: #ca2200;
+      cursor: pointer;
+    }
+  }
+}
+
+.intro-images {
+  width: auto;
+  height: auto;
+
+  svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .splash {
+    position: absolute;
+    top: -20%;
+    right: -10%;
+    z-index: -1;
+  }
+}
+
+.intro-text,
+.intro-images {
+  flex: 1 1 40rem;
+}
+
+.active {
+  color: white;
+  border: 3px solid white;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  a {
+    font-weight: bold;
+  }
+}

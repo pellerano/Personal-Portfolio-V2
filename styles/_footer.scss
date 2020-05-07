@@ -1,0 +1,12 @@
+footer {
+  background: $bgcolor;
+  color: white;
+  min-height: 6vh;
+  @include flex(center, center, row);
+  left: 0;
+  bottom: 0;
+
+  h4 {
+    font-weight: normal;
+  }
+}
