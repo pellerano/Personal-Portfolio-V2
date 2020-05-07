@@ -298,6 +298,7 @@ footer h4 {
     text-align: center;
   }
   .intro-images .intro-images svg {
+    margin-top: 2rem;
     height: 20%;
   }
 }
