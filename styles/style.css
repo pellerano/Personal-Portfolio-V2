@@ -279,6 +279,9 @@ footer h4 {
   nav ul li a {
     font-size: 1.7rem;
   }
+  .intro {
+    width: 100%;
+  }
   .intro-text {
     text-align: center;
     margin-bottom: 4rem;
@@ -292,6 +295,11 @@ footer h4 {
   .intro-text button {
     font-size: 1.7rem;
     padding: 1rem 2rem;
+  }
+  .intro-images {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 0, 0, 0.7)), to(rgba(255, 111, 0, 0.87)));
+    background: linear-gradient(left, rgba(255, 0, 0, 0.7), rgba(255, 111, 0, 0.87));
+    padding-top: 2rem;
   }
   .intro-images .splash {
     display: none;
