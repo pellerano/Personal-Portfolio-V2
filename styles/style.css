@@ -280,6 +280,7 @@ footer h4 {
   }
   .intro-text {
     text-align: center;
+    margin-bottom: 4rem;
   }
   .intro-text h2 {
     font-size: 3rem;
@@ -298,7 +299,6 @@ footer h4 {
     text-align: center;
   }
   .intro-images .intro-images svg {
-    margin-top: 2rem;
     height: 20%;
   }
 }
