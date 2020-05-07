@@ -4,6 +4,7 @@
   }
 
   .main-head {
+    min-height: 1vh;
     background: $bgcolor;
     margin-bottom: 2rem;
   }
@@ -60,5 +61,9 @@
         height: 20%;
       }
     }
+  }
+
+  .active {
+    padding: 1rem;
   }
 }

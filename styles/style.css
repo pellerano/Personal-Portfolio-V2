@@ -243,6 +243,7 @@ footer h4 {
     overflow: visible;
   }
   .main-head {
+    min-height: 1vh;
     background: #ff4721;
     margin-bottom: 2rem;
   }
@@ -300,6 +301,9 @@ footer h4 {
   }
   .intro-images .intro-images svg {
     height: 20%;
+  }
+  .active {
+    padding: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
