@@ -314,5 +314,8 @@ footer h4 {
   .active {
     padding: 1rem;
   }
+  footer h4 {
+    font-size: 1.7rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
