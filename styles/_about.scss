@@ -1,0 +1,53 @@
+.body-about {
+  overflow: visible;
+}
+
+.main-head-contact {
+  nav {
+    @include flex(space-between, center, row);
+    min-height: 10vh;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+
+    .logo {
+      font-size: 3rem;
+      @include flex(flex-start, center, row);
+      flex: 2 1 40rem;
+    }
+
+    ul {
+      @include flex(space-around, center, row);
+      flex: 1 1 40rem;
+      li {
+        a {
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+.active-contact {
+  border: 3px solid $bgcolor;
+}
+
+.about {
+  min-height: 80vh;
+}
+
+.about-text {
+  width: 90%;
+  margin: auto;
+
+  h2 {
+    font-size: 8.9rem;
+  }
+}
+
+.pill {
+  background: $bgcolor;
+  width: 15rem;
+  height: 1.4rem;
+  border-radius: 250px;
+}
