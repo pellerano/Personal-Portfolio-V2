@@ -3,26 +3,10 @@
 }
 
 .main-head-contact {
-  nav {
-    @include flex(space-between, center, row);
-    min-height: 10vh;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: auto;
-
-    .logo {
-      font-size: 3rem;
-      @include flex(flex-start, center, row);
-      flex: 2 1 40rem;
-    }
-
-    ul {
-      @include flex(space-around, center, row);
-      flex: 1 1 40rem;
-      li {
-        a {
-          color: black;
-        }
+  ul {
+    li {
+      a {
+        color: black;
       }
     }
   }
@@ -37,7 +21,7 @@
 }
 
 .about-text {
-  width: 90%;
+  width: 88%;
   margin: auto;
 
   h2 {
