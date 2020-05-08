@@ -387,6 +387,8 @@ nav ul li a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .card-buttons button {
@@ -396,6 +398,7 @@ nav ul li a {
   padding: 2rem 3rem;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  margin-top: 1rem;
 }
 
 .card-buttons button a {
@@ -593,6 +596,9 @@ footer h4 {
   .card,
   .card-image {
     width: 30rem;
+  }
+  .card {
+    height: 60rem;
   }
   .project-cards {
     -webkit-box-pack: center;

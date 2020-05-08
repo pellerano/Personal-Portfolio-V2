@@ -40,6 +40,7 @@
 .card-buttons {
   width: 100%;
   @include flex(space-around, center, row);
+  flex-wrap: wrap;
 
   button {
     background: $bgcolor;
@@ -47,6 +48,7 @@
     border-radius: 1.3rem;
     padding: 2rem 3rem;
     transition: 0.3s ease-in-out;
+    margin-top: 1rem;
     a {
       font-family: "Montserrat", sans-serif;
       color: white;
