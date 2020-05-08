@@ -96,4 +96,31 @@
       }
     }
   }
+
+  /*ABOUT SECTION*/
+
+  .about {
+    padding-top: 2rem;
+    h2 {
+      font-size: 5rem;
+    }
+  }
+
+  .pill {
+    width: 10rem;
+    height: 1rem;
+  }
+
+  .circle {
+    height: 30rem;
+    width: 30rem;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .about-image {
+    padding-bottom: 4rem;
+  }
 }

@@ -227,15 +227,69 @@ nav ul li a {
 
 .about {
   min-height: 80vh;
-}
-
-.about-text {
   width: 88%;
   margin: auto;
 }
 
-.about-text h2 {
+.about h2 {
   font-size: 8.9rem;
+}
+
+.about-info {
+  padding: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.about-text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.about-text h3 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.about-text h3 span {
+  color: #ff4721;
+}
+
+.about-text p {
+  font-size: 3rem;
 }
 
 .pill {
@@ -243,6 +297,17 @@ nav ul li a {
   width: 15rem;
   height: 1.4rem;
   border-radius: 250px;
+}
+
+.circle {
+  background: url("../img/IMG_9549.jpg");
+  background-size: cover;
+  height: 40rem;
+  width: 40rem;
+  border: 7px solid white;
+  border-radius: 25rem;
+  -webkit-box-shadow: 0px 10px 23px rgba(0, 0, 0, 0.42);
+          box-shadow: 0px 10px 23px rgba(0, 0, 0, 0.42);
 }
 
 footer {
@@ -353,6 +418,27 @@ footer h4 {
   }
   .main-head-contact ul li a {
     color: white;
+  }
+  /*ABOUT SECTION*/
+  .about {
+    padding-top: 2rem;
+  }
+  .about h2 {
+    font-size: 5rem;
+  }
+  .pill {
+    width: 10rem;
+    height: 1rem;
+  }
+  .circle {
+    height: 30rem;
+    width: 30rem;
+  }
+  .about-text {
+    text-align: center;
+  }
+  .about-image {
+    padding-bottom: 4rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

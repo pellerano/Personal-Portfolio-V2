@@ -18,14 +18,36 @@
 
 .about {
   min-height: 80vh;
+  width: 88%;
+  margin: auto;
+  h2 {
+    font-size: 8.9rem;
+  }
+}
+
+.about-info {
+  padding: 4rem;
+  @include flex(center, center, row);
+  flex-wrap: wrap;
+}
+
+.about-image {
+  @include flex(center, center, row);
+  flex: 1 1 40rem;
 }
 
 .about-text {
-  width: 88%;
-  margin: auto;
+  flex: 1 1 40rem;
+  h3 {
+    font-size: 3rem;
+    font-weight: normal;
+    span {
+      color: $bgcolor;
+    }
+  }
 
-  h2 {
-    font-size: 8.9rem;
+  p {
+    font-size: 3rem;
   }
 }
 
@@ -34,4 +56,14 @@
   width: 15rem;
   height: 1.4rem;
   border-radius: 250px;
+}
+
+.circle {
+  background: url("../img/IMG_9549.jpg");
+  background-size: cover;
+  height: 40rem;
+  width: 40rem;
+  border: 7px solid white;
+  border-radius: 25rem;
+  box-shadow: 0px 10px 23px rgba(0, 0, 0, 0.42);
 }
