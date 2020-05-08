@@ -1,0 +1,96 @@
+.projects {
+  min-height: 80vh;
+  width: 88%;
+  margin: auto;
+}
+
+.project-info {
+  h2 {
+    font-size: 8.9rem;
+  }
+}
+
+.project-cards {
+  width: 100%;
+  @include flex(left, center, row);
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 50rem;
+  width: 45rem;
+  border-radius: 3.9rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
+  margin: 3rem 2rem;
+}
+
+.card-text {
+  padding: 2rem;
+  @include flex(center, flex-start, column);
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    margin: 2rem 0rem;
+  }
+}
+
+.card-buttons {
+  width: 100%;
+  @include flex(space-around, center, row);
+
+  button {
+    background: $bgcolor;
+    border: none;
+    border-radius: 1.3rem;
+    padding: 2rem 3rem;
+    transition: 0.3s ease-in-out;
+    a {
+      font-family: "Montserrat", sans-serif;
+      color: white;
+      font-weight: bold;
+    }
+
+    &:hover {
+      background: #ca2200;
+      cursor: pointer;
+    }
+  }
+}
+
+.card-image {
+  background-size: cover;
+  background-position: center;
+  width: 45rem;
+  height: 25.7rem;
+  border-top-right-radius: 3.9rem;
+  border-top-left-radius: 3.9rem;
+}
+
+.card-image-1 {
+  background: url("../img/IMG_001.png");
+  background-size: cover;
+  background-position: center;
+}
+.card-image-2 {
+  background: url("../img/IMG_002.png");
+  background-size: cover;
+  background-position: center;
+}
+.card-image-3 {
+  background: url("../img/IMG_003.png");
+  background-size: cover;
+  background-position: center;
+}
+.card-image-4 {
+  background: url("../img/IMG_004.png");
+  background-size: cover;
+  background-position: center;
+}
+.card-image-5 {
+  background: url("../img/IMG_005.png");
+  background-size: cover;
+  background-position: center;
+}
