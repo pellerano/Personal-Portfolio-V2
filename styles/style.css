@@ -366,7 +366,7 @@ nav ul li a {
 }
 
 .card-text h2 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
 }
 
 .card-text p {
@@ -596,6 +596,9 @@ footer h4 {
   .card,
   .card-image {
     width: 30rem;
+  }
+  .card-text h2 {
+    font-size: 2.2rem;
   }
   .card {
     height: 60rem;
