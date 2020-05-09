@@ -50,7 +50,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: #2c2c2c;
 }
 
 .main-head {
@@ -96,6 +95,10 @@ nav .logo {
   -webkit-box-flex: 2;
       -ms-flex: 2 1 40rem;
           flex: 2 1 40rem;
+}
+
+nav .logo a {
+  color: black;
 }
 
 nav ul {
@@ -652,6 +655,8 @@ footer h4 {
         -ms-flex: 1 1 40rem;
             flex: 1 1 40rem;
     margin-top: 1rem;
+  }
+  nav .logo a {
     color: white;
   }
   nav ul {

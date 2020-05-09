@@ -16,7 +16,9 @@
       @include flex(center, center, column);
       flex: 1 1 40rem;
       margin-top: 1rem;
-      color: white;
+      a {
+        color: white;
+      }
     }
 
     ul {
