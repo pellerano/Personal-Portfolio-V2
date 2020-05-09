@@ -1,0 +1,94 @@
+.contact {
+  min-height: 80vh;
+  width: 88%;
+  margin: auto;
+
+  h2 {
+    font-size: 8.9rem;
+  }
+}
+
+.contact-body {
+  @include flex(center, center, row);
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.form-wrapper {
+  flex: 1 1 40rem;
+  form {
+    @include flex(center, flex-start, column);
+
+    label {
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+
+    input {
+      padding: 1rem;
+      margin-bottom: 2rem;
+      border-radius: 0.7rem;
+      border: 1px solid gray;
+      width: 80%;
+    }
+
+    textarea {
+      width: 80%;
+      resize: none;
+      border: 1px solid gray;
+      margin-bottom: 2rem;
+      border-radius: 0.7rem;
+      padding: 1rem;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    button {
+      padding: 1rem 2rem;
+      background: $bgcolor;
+      color: white;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      border: none;
+      border-radius: 2.5rem;
+    }
+  }
+}
+
+.social-links {
+  flex: 1 1 40rem;
+  text-align: center;
+  padding: 2rem;
+  @include flex(center, center, column);
+  h2 {
+    font-size: 6rem;
+
+    span {
+      color: $bgcolor;
+    }
+  }
+}
+
+.social-icons {
+  ul {
+    @include flex(center, center, row);
+
+    li {
+      margin-right: 5rem;
+      margin-top: 2rem;
+
+      a {
+        img {
+          width: 58px;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+.vertical-pill {
+  height: 50rem;
+  width: 0.5rem;
+  background: $bgcolor;
+  border-radius: 25rem;
+}

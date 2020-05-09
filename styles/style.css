@@ -451,6 +451,152 @@ nav ul li a {
   background-position: center;
 }
 
+.contact {
+  min-height: 80vh;
+  width: 88%;
+  margin: auto;
+}
+
+.contact h2 {
+  font-size: 8.9rem;
+}
+
+.contact-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.form-wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.form-wrapper form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-wrapper form label {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.form-wrapper form input {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.7rem;
+  border: 1px solid gray;
+  width: 80%;
+}
+
+.form-wrapper form textarea {
+  width: 80%;
+  resize: none;
+  border: 1px solid gray;
+  margin-bottom: 2rem;
+  border-radius: 0.7rem;
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-wrapper form button {
+  padding: 1rem 2rem;
+  background: #ff4721;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 2.5rem;
+}
+
+.social-links {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  text-align: center;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.social-links h2 {
+  font-size: 6rem;
+}
+
+.social-links h2 span {
+  color: #ff4721;
+}
+
+.social-icons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.social-icons ul li {
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
+
+.social-icons ul li a img {
+  width: 58px;
+  height: auto;
+}
+
+.vertical-pill {
+  height: 50rem;
+  width: 0.5rem;
+  background: #ff4721;
+  border-radius: 25rem;
+}
+
 footer {
   background: #ff4721;
   color: white;
@@ -607,6 +753,39 @@ footer h4 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  /*CONTACT SECTION*/
+  .contact {
+    padding-top: 2rem;
+  }
+  .contact h2 {
+    font-size: 5rem;
+  }
+  .vertical-pill {
+    margin: 4rem 0rem;
+    width: 50rem;
+    height: 0.5rem;
+  }
+  .form-wrapper form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .social-icons {
+    width: 100%;
+  }
+  .social-icons ul li {
+    margin: 2rem 2rem 0 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

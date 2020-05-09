@@ -156,4 +156,34 @@
   .project-cards {
     justify-content: center;
   }
+
+  /*CONTACT SECTION*/
+  .contact {
+    padding-top: 2rem;
+
+    h2 {
+      font-size: 5rem;
+    }
+  }
+
+  .vertical-pill {
+    margin: 4rem 0rem;
+    width: 50rem;
+    height: 0.5rem;
+  }
+
+  .form-wrapper {
+    form {
+      @include flex(center, center, column);
+    }
+  }
+
+  .social-icons {
+    width: 100%;
+    ul {
+      li {
+        margin: 2rem 2rem 0 2rem;
+      }
+    }
+  }
 }
